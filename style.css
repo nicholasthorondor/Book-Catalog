@@ -1,0 +1,93 @@
+/*Sets the font for the whole application.*/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Styling for the search form*/
+header {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+}
+
+/*Overall styling for main content of each page.*/
+section {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    margin-top: 1.5em;
+}
+
+p {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: teal;
+}
+
+hr {
+    width: 30%;
+}
+
+/*Styling for links that lead to an author's individual page.*/
+.authorLink {
+    color: black;
+    display: block;
+    font-size: 1.2em;
+    margin: auto;
+    margin-bottom: 1em;
+    text-decoration: none;
+    width: fit-content;
+}
+
+/*Styling for the alphabetical index when displaying all authors.*/
+.index {
+    color: black;
+    margin-right: 1em;
+}
+
+.indexContainer {
+    margin-bottom: 3em;
+}
+
+/*Styling for the back to top of page arrow.*/
+.arrow {
+    color: black;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 3em;
+}
+
+/*Styling for the search button.*/
+.btn {
+    margin-left: 1em;
+    color: teal;
+    cursor: pointer;
+}
+
+/*Styling for the show all authors button.*/
+.showAll {
+    margin-top: 2em;
+    border: 1px solid black;
+    padding: 10px;
+    position: fixed;
+    bottom: 10px;
+}
+
+/*Specific styling for the titles of an author retreived from the search results.*/
+.searchTitle {
+    margin-top: 1em;
+}
